@@ -1,0 +1,4 @@
+---
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas
+- name: hnakamur.atom-packages
