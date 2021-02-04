@@ -3,17 +3,29 @@ downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
   - autossh
+  - awscli
+  - bat
   - ctop
-  - fish
+  - fd
+  - fzf
+  - gh
   - git
+  - grex
+  - hadolint
   - htop
-  - hub
   - mtr
   - neovim
   - nmap
+  - prettyping
+  - ripgrep
+  - rustscan
   - ssh-copy-id
+  - tealdeer
+  - tmux
   - wget
   - youtube-dl
+  - zoxide
+  - zsh
 
 homebrew_taps:
   - homebrew/core
@@ -23,43 +35,30 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  - archiver
-  - aria2gui
-  - atom
+  - alacritty
   - alfred
-  - bartender
-  - cleanmymac
+  - boostnote
   - dash
   - docker
   - dropbox
   - firefox
-  - font-hack
-  - font-source-code-pro-for-powerline
+  - font-jetbrains-mono
+  - font-jetbrains-mono-nerd-font
   - google-chrome
   - iina
-  - iterm2
-  - nally
-  - proxifier
-  - quip
-  - sublime-text
+  - keka
+  - setapp
+  - slack
+  - surge
   - telegram
-  - xld
+  - vscodium
+  - welly
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 466416967, name: "Navicat Premium Essentials" }
   - { id: 539883307, name: "LINE" }
   - { id: 961632517, name: "Be Focused Pro - Focus Timer & Goal Tracker" }
   - { id: 1037779758, name: "Best Trace" }
 
 mas_email: ""
 mas_password: ""
-
-atom_packages_packages:
-  - dash
-  - file-icons
-  - language-ansible
-  - language-docker
-  - language-vue
-  - minmap
-  - nuclide
