@@ -5,6 +5,7 @@ homebrew_installed_packages:
   - autossh
   - awscli
   - bat
+  - croc
   - ctop
   - fd
   - fzf
