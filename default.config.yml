@@ -2,22 +2,22 @@
 downloads: ~/.ansible-downloads/
 
 homebrew_installed_packages:
-  - autossh
-  - awscli
+  - asdf
   - bat
   - croc
   - ctop
+  - exa
   - fd
   - fzf
   - gh
   - git
+  - gping
   - grex
   - hadolint
   - htop
   - mtr
   - neovim
   - nmap
-  - prettyping
   - ripgrep
   - rustscan
   - ssh-copy-id
@@ -38,28 +38,25 @@ homebrew_cask_apps:
   - 1password
   - alacritty
   - alfred
-  - boostnote
+  - bartender
   - dash
   - docker
-  - dropbox
   - firefox
   - font-jetbrains-mono
   - font-jetbrains-mono-nerd-font
+  - fsnotes
   - google-chrome
   - iina
   - keka
+  - secretive
   - setapp
   - slack
   - surge
   - telegram
-  - vscodium
-  - welly
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
   - { id: 539883307, name: "LINE" }
-  - { id: 961632517, name: "Be Focused Pro - Focus Timer & Goal Tracker" }
-  - { id: 1037779758, name: "Best Trace" }
 
 mas_email: ""
 mas_password: ""
